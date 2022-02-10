@@ -1,0 +1,7 @@
+.card {
+    background-color: #000; 
+}
+
+.button {
+    --border-radius: 15px;
+}
