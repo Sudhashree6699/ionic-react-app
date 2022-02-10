@@ -1,7 +1,7 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { useParams } from 'react-router';
 import ExploreContainer from '../components/ExploreContainer';
-import List from '../components/List';
+import BookList from '../components/Books';
 //import Profile from '../components/Profile';
 import './Page.css';
 
@@ -14,7 +14,7 @@ const Page: React.FC = () => {
     <>
     {name == "List"? 
     <>
-    <List/>
+    <BookList/>
     </> : 
       <IonPage>
       <IonHeader>

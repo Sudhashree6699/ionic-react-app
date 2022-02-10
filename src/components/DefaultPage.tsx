@@ -1,6 +1,6 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { useParams } from 'react-router';
-import ExploreContainer from '../components/ExploreContainer';
+import ExploreContainer from './ExploreContainer';
 import Header from './Header';
 
 const DefaultPage: React.FC = () => {
